@@ -1,0 +1,26 @@
+{
+    "name": "vite-bug-resolve-workspaces-dependencies",
+    "private": true,
+    "workspaces": {
+        "nohoist": [
+            "linked-pkg/smoldash",
+            "linked-pkg/**",
+            "smoldash",
+            "**/smoldash/**",
+            "**/smoldash"
+        ],
+        "packages": [
+            "vite-app",
+            "linked-pkg"
+        ]
+    },
+    "scripts": {
+        "dev": "yarn --cwd vite-app dev"
+    },
+    "repository": "https://github.com/remorses/vite-bug-resolve-workspaces-dependencies.git",
+    "author": "remorses <beats.by.morse@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "typescript": "^4.0.5"
+    }
+}
