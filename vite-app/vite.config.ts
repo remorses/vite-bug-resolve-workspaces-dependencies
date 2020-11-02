@@ -12,7 +12,7 @@ const config: UserConfig = {
     },
     configureServer: [
       async ({resolver}) => {
-        resolver.requestToFile('/@modules/smoldash/dist/esm/index.js')
+        // resolver.requestToFile('/@modules/smoldash/dist/esm/index.js')
       }
     ],
     plugins: [reactPlugin],

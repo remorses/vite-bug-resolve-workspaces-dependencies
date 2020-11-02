@@ -1,5 +1,5 @@
 import React from 'react'
-import { merge } from 'smoldash'
+import { merge } from 'smoldash/dist/esm/index'
 
 export const SomeComponent = ({}) => {
     return (
