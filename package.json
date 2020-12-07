@@ -11,11 +11,13 @@
         ],
         "packages": [
             "vite-app",
-            "linked-pkg"
+            "linked-pkg",
+            "wmr-app"
         ]
     },
     "scripts": {
-        "dev": "yarn --cwd vite-app dev"
+        "dev": "yarn --cwd vite-app dev",
+        "myvite": "/Users/morse/Documents/GitHub/vite/bin/vite.js"
     },
     "repository": "https://github.com/remorses/vite-bug-resolve-workspaces-dependencies.git",
     "author": "remorses <beats.by.morse@gmail.com>",

@@ -1,0 +1,23 @@
+{
+    "name": "wmr-app",
+    "version": "0.0.0",
+    "scripts": {
+        "start": "wmr",
+        "build": "wmr build --prerender",
+        "serve": "wmr serve"
+    },
+    "eslintConfig": {
+        "extends": "preact"
+    },
+    "alias": {
+        "react": "preact/compat",
+        "react-dom": "preact/compat"
+    },
+    "dependencies": {
+        "preact-iso": "^0.2.0",
+        "linked-pkg": "*"
+    },
+    "devDependencies": {
+        "wmr": "^1.0.0"
+    }
+}
